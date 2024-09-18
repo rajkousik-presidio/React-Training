@@ -1,4 +1,4 @@
-# Migration Training Repository
+# React Training Repository
 
 Welcome to the React Training Repository!
 
