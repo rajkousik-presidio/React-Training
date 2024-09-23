@@ -1,0 +1,41 @@
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 55px;
+  }
+  
+  .info-item {
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .info-item .icon{
+    vertical-align: middle;
+  }
+  
+  .info-item h3 {
+    margin-top: 10px;
+    color: #2ea87d;
+
+  }
+  
+  .info-item p {
+    margin-top: 5px;
+    color: black;
+  }
+  
+  .info-item svg {
+    font-size: 40px;
+    color: #2ea87d;
+  }
+  

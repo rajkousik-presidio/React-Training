@@ -1,0 +1,121 @@
+.organic-addons {
+    padding: 40px;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  
+.organic-addons .heading{
+  margin: 50px;
+}
+
+.organic-addons h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+  
+
+.organic-addons .underline{
+  border: 2px solid #ffba44;  
+  width: 200px;
+  margin: auto;
+}
+
+  .categories {
+    margin-bottom: 30px;
+  }
+  
+  .categories button {
+    /* background-color: #f8f8f8; */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+  }
+  
+  .categories .active {
+    background-color: #2ea87d;
+    color: white;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    /* background-color: #fdf4e2; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .product-card img {
+    width: 100%;
+  }
+  
+  .product-info {
+    margin-top: 15px;
+  }
+
+  .product-info .grp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .product-info .grp span{
+    font-size: 24px;
+  }
+  
+  .product-info span {
+    color: #ff9800;
+    font-size: 32px;
+  }
+  
+  .product-info h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2ea87d;
+  }
+  
+  .product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .product-actions button {
+    background-color: #ffb74d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .product-actions .actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .product-actions span {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  

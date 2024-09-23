@@ -1,0 +1,45 @@
+.fresh-veg-section {
+    position: relative;
+    width: 100%;
+  }
+  
+  .fresh-veg-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .play-button {
+    background-color: #ffba44;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+  }
+
+
+  
+  .play-button svg {
+    font-size: 32px;
+    color: white;
+  }
+  

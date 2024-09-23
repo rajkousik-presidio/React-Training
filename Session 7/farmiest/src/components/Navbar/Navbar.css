@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #f0e1ce, #e7f6eb);
+
+  }
+  
+  .navbar-logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbar-links li {
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .navbar-links li.active{
+    color: #2ea87d;
+    border-bottom: 3px solid #2ea87d;
+  }
+
+  
+  
+  .navbar-icons {
+    display: flex;
+    gap: 0px;
+    font-size: 20px;
+  }
+
+  .navbar-icons .flex-gap{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 15px;
+  }
+
+  .navbar-icons .grp{
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+
+  }
+
+    .navbar-icons .grp-no-right-border{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+
+  }
+
+  .navbar-icons .no-gap{
+    gap: 0px
+  }
+  

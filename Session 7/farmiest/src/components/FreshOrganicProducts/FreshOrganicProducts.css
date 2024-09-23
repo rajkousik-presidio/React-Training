@@ -1,0 +1,109 @@
+.fresh-organic-products {  
+  max-width: 80%;
+  margin: auto;  
+  padding-bottom: 100px;
+} 
+
+.fresh-organic-products .heading{
+  margin: 50px;
+}
+
+.fresh-organic-products h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+  
+
+.fresh-organic-products .underline{
+  border: 2px solid #ffba44;  
+  width: 200px;
+  margin: auto;
+}
+
+.fresh-organic-products .sections{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.fresh-organic-products .left-section{  
+  width: 40%;  
+  position: relative;  
+}  
+  
+.fresh-organic-products .left-section img {  
+  width: 100%;  
+  height: 100%;  
+  object-fit: cover;  
+  border-radius: 5px;
+}  
+  
+  
+.fresh-organic-products .left-section .overlay {  
+  position: absolute;  
+  top: 30%;  
+  width: 100%;  
+  height: 100%;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  flex-direction: column;
+  color: #fff;  
+}  
+  
+.fresh-organic-products .left-section .overlay button{
+  background-color: #ffba44;
+  border-radius: 5px;
+}
+  
+.fresh-organic-products .right-section {  
+  width: 60%;
+  /* min-height: 100%;  
+  display: flex;    
+  justify-content: space-between; 
+  align-items: center;  */
+}  
+  
+.fresh-organic-products .product-grid {  
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr);  
+  grid-gap: 50px;  
+}  
+  
+.fresh-organic-products .product-card {  
+  display: flex;  
+  flex-direction: row;  
+  align-items: center;  
+  padding: 20px;  
+  gap:20px;
+  border: 1px solid #ddd;  
+  border-radius: 10px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.fresh-organic-products .product-card .product-description{
+  display: flex;
+  flex-direction: column;
+}
+  
+.fresh-organic-products .product-card img {  
+  width: 100px;  
+  height: 100px;  
+  object-fit: cover;  
+}  
+  
+.fresh-organic-products .product-card h3 {  
+  font-weight: bold;  
+  margin-bottom: 10px;  
+}  
+  
+.fresh-organic-products .rating {  
+  display: flex;  
+  align-items: center;  
+  margin-bottom: 10px;  
+}  
+  
+.fresh-organic-products .rating CiStar {  
+  margin-right: 5px;  
+} 
