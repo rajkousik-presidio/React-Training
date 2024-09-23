@@ -22,4 +22,3 @@ Provide a component breakdown for the interface. For example, dividing the layou
 11. **TaskColumnHeader** (Header section of each task column with title and add button)
 12. **TaskCard** (Each task card inside the columns)
 
-
